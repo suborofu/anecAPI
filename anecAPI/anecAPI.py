@@ -1,9 +1,9 @@
-from modern_jokes import modern_jokes
-from soviet_jokes import soviet_jokes
+from .modern_jokes import modern_jokes
+from .soviet_jokes import soviet_jokes
 import random
 import argparse
 
-
+import anecAPI
 def soviet_joke():
     return random.choice(soviet_jokes)
 
