@@ -1,5 +1,10 @@
 # anecAPI
 
+[![PyPI version](https://badge.fury.io/py/anecapi.svg)](https://pypi.python.org/pypi?:action=display&name=anecapi)
+[![Downloads](https://pepy.tech/badge/anecapi)](https://pepy.tech/project/anecapi)
+[![License: MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
+
+
 ## Description
 `anecAPI` allows you to display funny (or not) USSR/Russian jokes (also called anecdotes).
 > All jokes are in Russian only.
@@ -36,5 +41,7 @@ C:\anecAPI> python anecAPI.py -m
 ```python
 from anecAPI import anecAPI
 
-print(anecAPI.soviet_joke())
+print(anecAPI.modern_joke()) # Displays a modern Russian joke
+print(anecAPI.soviet_joke()) # Displays an old USSR joke
+print(anecAPI.random_joke()) # Displays a random USSR or Russian joke
 ```
